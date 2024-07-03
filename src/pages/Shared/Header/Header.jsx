@@ -58,6 +58,7 @@ const Header = () => {
                     gap-5
                     absolute
                     py-5 
+                    px-5
                     mp-[2.5%]
                     left-5
                     right-5

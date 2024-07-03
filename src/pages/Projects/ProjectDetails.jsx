@@ -22,7 +22,7 @@ const ProjectDetails = () => {
 
   if (isLoading)
     return (
-      <div className="flex justify-center items-center ">
+      <div className="flex justify-center items-center h-screen">
         <Lottie className="w-1/3" animationData={loaderAnimation} loop={true} />
       </div>
     );

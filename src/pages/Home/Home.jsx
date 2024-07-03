@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import Banner from "./Banner/Banner";
 import Count from "./Count/Count";
+import Logo from "./Logo/Logo";
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
         <title>Tanveer Ahmed || Home</title>
       </Helmet>
       <Banner />
+      <Logo />
       <Count />
     </div>
   );

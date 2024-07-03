@@ -1,11 +1,10 @@
 // eslint-disable-next-line react/prop-types
 const SectionTitle = ({ title }) => {
   return (
-    <div className="mb-5">
-      <h1 className="uppercase text-3xl my-2">{title}</h1>
+    <div className="mb-4">
+      <h1 className="uppercase font-medium text-3xl my-2">{title}</h1>
       <div className="w-60  rounded-full">
-        {/* <div className="w-2/3 h-full bg-primary rounded-full"></div> */}
-        <progress className="progress bg-[#c5d0fb] "></progress>
+        <progress className="progress w-56 bg-gray-200 progress-primary"></progress>
       </div>
     </div>
   );

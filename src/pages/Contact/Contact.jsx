@@ -116,16 +116,16 @@ const Contact = () => {
         </div>
         <div className="py-5 mt-5 bg-[#ECEFFE] rounded-md grid grid-cols-4 gap-5 justify-between">
           <a href="https://www.linkedin.com/in/tanveerahmed45/">
-            <FaLinkedin className="text-3xl mx-auto text-primary" />
+            <FaLinkedin className="text-3xl mx-auto text-[#0A66C2]" />
           </a>
           <a href="https://github.com/TanveerAhmed4545">
-            <FaGithub className="text-3xl mx-auto text-primary" />
+            <FaGithub className="text-3xl mx-auto " />
           </a>
           <a href="https://www.facebook.com/profile.php?id=100001729059456&mibextid=ZbWKwL">
-            <FaFacebookSquare className="text-3xl mx-auto text-primary" />
+            <FaFacebookSquare className="text-3xl mx-auto text-[#2563EB]" />
           </a>
           <a href="https://twitter.com">
-            <FaTwitterSquare className="text-3xl mx-auto text-primary" />
+            <FaTwitterSquare className="text-3xl mx-auto text-[#3B82F6]" />
           </a>
         </div>
       </div>

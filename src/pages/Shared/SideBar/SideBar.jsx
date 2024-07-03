@@ -81,19 +81,14 @@ const SideBar = () => {
             </div>
             <hr />
 
-            <h2 className="py-2 font-semibold ">Language : </h2>
-            <div className="flex justify-between pb-5">
+            <div className="flex flex-col justify-evenly mb-2">
+              <h2 className=" font-bold ">Language : </h2>
+              <h2 className=" font-medium ">BANGLA (NATIVE)</h2>
+              <h2 className=" font-medium "> ENGLISH (COMFORTABLE)</h2>
+              <h2 className="font-medium ">HINDI (COMFORTABLE)</h2>
+            </div>
+            {/* <div className="flex justify-between pb-5">
               <div className="text-center">
-                {/* <div
-                  className="radial-progress text-primary"
-                  style={{
-                    "--value": "80",
-                    "--size": "3rem",
-                    "--thickness": "5px",
-                  }}
-                >
-                  80%
-                </div> */}
                 <div
                   className="radial-progress text-emerald-400 rotate-90"
                   style={{
@@ -109,16 +104,6 @@ const SideBar = () => {
                 <p className="font-medium">Bangla</p>
               </div>
               <div className="text-center">
-                {/* <div
-                  className="radial-progress text-primary"
-                  style={{
-                    "--value": "65",
-                    "--size": "3rem",
-                    "--thickness": "5px",
-                  }}
-                >
-                  65%
-                </div> */}
                 <div
                   className="radial-progress text-blue-500 rotate-90"
                   style={{
@@ -148,7 +133,7 @@ const SideBar = () => {
                 </div>
                 <p className="font-medium">Hindi</p>
               </div>
-            </div>
+            </div> */}
             <div>
               <a
                 className="mt-auto w-full"

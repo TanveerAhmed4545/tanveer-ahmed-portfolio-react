@@ -22,7 +22,7 @@ const Projects = () => {
 
   if (isLoading)
     return (
-      <div className="flex justify-center items-center ">
+      <div className="flex justify-center items-center h-screen">
         <Lottie className="w-1/3" animationData={loaderAnimation} loop={true} />
       </div>
     );
@@ -33,7 +33,7 @@ const Projects = () => {
         <title>Tanveer Ahmed || Projects</title>
       </Helmet>
       <div className="flex justify-between text-3xl md:text-4xl font-semibold pb-3 text-primary border-[#b5c1fe] border-b-2 border-solid ">
-        <h1 className="uppercase">Portfolio.</h1>
+        <h1 className="uppercase">Projects_</h1>
         <HiBriefcase />
       </div>
       <div>

@@ -25,7 +25,7 @@ const About = () => {
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
-            <SectionTitle title={"Web Developer"} />
+            <SectionTitle title={"About Me"} />
             <p className="mb-3 opacity-75">
               Hello! I am Tanveer Ahmed, a junior MERN stack developer with a
               strong passion for web development. I have completed a
