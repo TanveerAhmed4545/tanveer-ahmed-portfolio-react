@@ -4,13 +4,13 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 import Lottie from "lottie-react";
 import { FaDownload } from "react-icons/fa";
 import { useTypewriter } from "react-simple-typewriter";
-import animation from "../../../assets/Animation.json";
+import animation from "../../../assets/Animation3.json";
 // ..
 AOS.init();
 
 const Banner = () => {
   const [text] = useTypewriter({
-    words: ["Web Developer", "MERN Stack Developer"],
+    words: ["Web Developer", "Front End Developer"],
     loop: 0,
   });
   return (
@@ -19,7 +19,7 @@ const Banner = () => {
         <div>
           <div>
             <Lottie
-              className="max-h-[30rem] "
+              className="max-h-[30rem] md:h-[30rem] "
               animationData={animation}
               loop={true}
             ></Lottie>
@@ -30,14 +30,14 @@ const Banner = () => {
             Tanveer <span className="text-primary">Ahmed</span>
           </h1>
           <p className="mb-5">
-            <span>I'm </span>
+            <span>I'm a </span>
             <span className="font-semibold border-b-2 border-primary">
               {text}
             </span>
           </p>
           <div data-aos="zoom-in" data-aos-duration="1000">
             <p className="mb-5">
-              Welcome to my portfolio! As a skilled MERN stack developer, I am
+              Welcome to my portfolio! As a skilled Front End Developer, I am
               currently seeking new opportunities to take on exciting
               challenges. With a passion for crafting interactive and visually
               stunning websites, I am dedicated to delivering my exceptional
@@ -51,7 +51,7 @@ const Banner = () => {
             className=""
             href="https://drive.google.com/file/d/1y2nKLh2bDdDRpf-Svr3C1IboW2adGKqL/view?usp=sharing"
           >
-            <button className=" btn mt-5 bg-[#E3E7FA] rounded-md">
+            <button className=" btn mt-5 bg-[#6B88FF] border-none bg-opacity-10 rounded-md">
               <FaDownload className="text-primary" /> Resume
             </button>
           </a>

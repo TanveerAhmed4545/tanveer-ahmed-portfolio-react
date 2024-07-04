@@ -5,7 +5,7 @@ import ScrollTrigger from "react-scroll-trigger";
 const Count = () => {
   const [countStart, setCountStart] = useState(true);
   return (
-    <section className="bg-[#eceffe] mb-5 py-5 px-2 rounded-md mx-[2.5%]">
+    <section className="bg-[#6B88FF] bg-opacity-10 mb-5 py-5 px-2 rounded-md mx-[2.5%]">
       <ScrollTrigger
         onEnter={() => setCountStart(true)}
         onExit={() => setCountStart(false)}

@@ -110,17 +110,17 @@ const ProjectDetails = () => {
               </div>
               <div className="w-full mt-5 flex justify-between gap-3">
                 <a className="flex-1" href={liveLink}>
-                  <button className="w-full btn bg-[#E3E7FA] rounded-md">
+                  <button className="w-full btn bg-[#6B88FF] bg-opacity-10 rounded-md">
                     Preview
                   </button>
                 </a>
                 <a className="flex-1" href={githubClientSiteLink}>
-                  <button className="w-full btn bg-[#E3E7FA] rounded-md">
+                  <button className="w-full btn bg-[#6B88FF] bg-opacity-10 rounded-md">
                     Client
                   </button>
                 </a>
                 <a className="flex-1" href={githubServerSiteLink}>
-                  <button className="w-full btn bg-[#E3E7FA] rounded-md">
+                  <button className="w-full btn bg-[#6B88FF] bg-opacity-10 rounded-md">
                     Server
                   </button>
                 </a>

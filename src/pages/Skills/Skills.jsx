@@ -3,6 +3,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 import { Helmet } from "react-helmet-async";
 import { SiHyperskill } from "react-icons/si";
 import SectionTitle from "../../components/SectionTitle";
+import Logo from "../Home/Logo/Logo";
 // ..
 AOS.init();
 
@@ -22,8 +23,9 @@ const Skills = () => {
           <SiHyperskill />
         </div>
       </div>
-      <SectionTitle title={"Skills"} />
+      <SectionTitle title={"My Skills"} />
       <div>
+        <Logo />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 justify-between py-3">
           <div className="p-3 md:p-5 border-2 border-[#E3E7FA] rounded-md  hover:border-none hover:shadow-xl hover:shadow-[#9eadead7] transition duration-300 ease-in-out">
             <div>
@@ -63,6 +65,7 @@ const Skills = () => {
                 <li>Vue.js</li>
                 <li>Stripe</li>
                 <li>Date-fns</li>
+                <li>Moments</li>
               </ul>
             </div>
           </div>

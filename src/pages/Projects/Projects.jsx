@@ -38,9 +38,9 @@ const Projects = () => {
       </div>
       <div>
         <div className="py-5">
-          <SectionTitle title={"Projects"} />
+          <SectionTitle title={"My Projects"} />
           <div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-3">
               {projects.map((project) => (
                 <ProjectsCard key={project._id} project={project} />
               ))}

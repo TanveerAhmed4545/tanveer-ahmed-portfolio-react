@@ -22,7 +22,7 @@ const Education = () => {
           <MdCastForEducation />
         </div>
         <div className="py-5">
-          <SectionTitle title={"Education"} />
+          <SectionTitle title={"Academic "} />
           <div className="border-l-4 border-primary py-10 px-5 relative my-10">
             <div>
               <h1 className="uppercase text-xl font-semibold text-primary">

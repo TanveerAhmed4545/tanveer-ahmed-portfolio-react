@@ -11,9 +11,12 @@ import {
   FaFacebookSquare,
   FaGithub,
   FaLinkedin,
+  FaPhoneAlt,
   FaTwitterSquare,
 } from "react-icons/fa";
 import { HiMail } from "react-icons/hi";
+import { IoLocation } from "react-icons/io5";
+import { MdEmail } from "react-icons/md";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import SectionTitle from "../../components/SectionTitle";
 // ..
@@ -86,7 +89,7 @@ const Contact = () => {
                   required
                 />
                 <button
-                  className="btn rounded-md bg-[#ECEFFE] flex gap-3"
+                  className="btn rounded-md bg-[#6B88FF] border-none bg-opacity-10 flex gap-3"
                   type="submit"
                   value="Send"
                 >
@@ -114,7 +117,29 @@ const Contact = () => {
             </MapContainer>
           </div>
         </div>
-        <div className="py-5 mt-5 bg-[#ECEFFE] rounded-md grid grid-cols-4 gap-5 justify-between">
+        <div className="my-5">
+          {" "}
+          <div className=" border rounded-md flex flex-wrap  border-neutral-900 border-opacity-10  p-5 ">
+            <div className="p-6 bg-[#6B88FF] w-full rounded-md bg-opacity-10 ">
+              <FaPhoneAlt className="text-2xl text-[#6B88FF]"></FaPhoneAlt>
+              <p className="pt-6">Phone Number :</p>
+              <h3 className="font-bold pt-3">+8801676745345</h3>
+            </div>
+
+            <div className="p-6 bg-[#6B88FF] w-full rounded-md bg-opacity-10  my-6">
+              <MdEmail className="text-2xl text-[#6B88FF]"></MdEmail>
+              <p className="pt-6">Email :</p>
+              <h3 className="font-bold pt-3">tanveer8507@gmail.com</h3>
+            </div>
+
+            <div className="p-6 bg-[#6B88FF] w-full rounded-md bg-opacity-10 ">
+              <IoLocation className="text-2xl text-[#6B88FF]"></IoLocation>
+              <p className="pt-6">Location :</p>
+              <h3 className="font-bold pt-3">Uttara, Dhaka, Bangladesh</h3>
+            </div>
+          </div>
+        </div>
+        <div className="py-5 mt-5 bg-[#6B88FF] bg-opacity-10 rounded-md grid grid-cols-4 gap-5 justify-between">
           <a href="https://www.linkedin.com/in/tanveerahmed45/">
             <FaLinkedin className="text-3xl mx-auto text-[#0A66C2]" />
           </a>

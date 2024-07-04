@@ -16,7 +16,7 @@ const About = () => {
       </Helmet>
       <div>
         <div className="flex justify-between text-3xl md:text-4xl font-semibold pb-3 text-primary border-b-2 border-solid border-[#b5c1fe]">
-          <h1 className="uppercase">About Me_</h1>
+          <h1 className="uppercase">About_</h1>
           <HiUser />
         </div>
         <div className="py-5 md:flex gap-5 justify-between">
@@ -27,7 +27,7 @@ const About = () => {
           >
             <SectionTitle title={"About Me"} />
             <p className="mb-3 opacity-75">
-              Hello! I am Tanveer Ahmed, a junior MERN stack developer with a
+              Hello! I am Tanveer Ahmed, a junior Front End Developer with a
               strong passion for web development. I have completed a
               comprehensive MERN stack web development course and gained
               hands-on experience building interactive web applications. I am
@@ -113,7 +113,7 @@ const About = () => {
                 className="w-full mt-5"
                 href="https://drive.google.com/file/d/1y2nKLh2bDdDRpf-Svr3C1IboW2adGKqL/view?usp=sharing"
               >
-                <button className="w-full btn bg-[#E3E7FA] rounded-md">
+                <button className="w-full btn bg-[#6B88FF] border-none bg-opacity-10 rounded-md">
                   <FaDownload className="text-primary " /> Resume
                 </button>
               </a>

@@ -3,21 +3,23 @@ import logo from "../../../assets/Images/Tanveer-photo.png";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer bg-[#e8e9f3] text-[#1F2937] pt-10 px-10 pb-6">
+      <footer className="footer bg-[#6B88FF] bg-opacity-15  pt-10 px-10 pb-6">
         <aside>
           <div className="flex items-center justify-center space-x-4">
-            <img className="w-10 h-10 rounded-full" src={logo} alt="avatar" />
+            <div className="avatar">
+              <div className="ring-offset-base-100 w-10 rounded-full ring ring-offset-2">
+                <img src={logo} className="w-10 h-10 rounded-full" />
+              </div>
+            </div>
             <div className="font-medium">
-              <h5 className="text-base font-semibold text-gray-900">
-                Tanveer Ahmed
-              </h5>
+              <h5 className="text-base font-semibold ">Tanveer Ahmed</h5>
               <span className="text-sm text-gray-500">
                 tanveer8507@gmail.com
               </span>
             </div>
           </div>
         </aside>
-        <nav>
+        <nav className="flex flex-col items-center">
           <h6 className="footer-title">Social</h6>
           <div className="grid grid-flow-col gap-4">
             <button className="w-10 h-10 flex items-center justify-center rounded-lg bg-white shadow-md shadow-gray-200 group transition-all duration-300">
@@ -55,7 +57,7 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-      <footer className="footer footer-center bg-[#e8e9f3] text-[#1F2937] p-4">
+      <footer className="footer footer-center bg-[#6B88FF] bg-opacity-15  p-4">
         <aside>
           <p className="font-medium">
             Copyright © {new Date().getFullYear()} - All right reserved by

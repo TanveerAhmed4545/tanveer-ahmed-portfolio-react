@@ -16,7 +16,7 @@ const SideBar = () => {
         <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
         <div className="drawer-side">
           <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-          <div className="overflow-hidden grid justify-between h-full px-5 py-3 bg-[#E3E7FA] text-slate-950">
+          <div className="overflow-hidden grid justify-between h-full px-5 py-3 bg-[#6B88FF] bg-opacity-20 ">
             <div className="text-center w-full">
               <div className="text-center w-full">
                 <div className="avatar">
@@ -38,7 +38,7 @@ const SideBar = () => {
                 <h1 className="uppercase text-2xl font-bold text-primary">
                   Tanveer Ahmed
                 </h1>
-                <h3 className="font-semibold">MERN Stack Developer</h3>
+                <h3 className="font-semibold">Front End Developer</h3>
                 <div className="flex gap-3 justify-center pt-5">
                   <a href="https://www.linkedin.com/in/tanveerahmed45/">
                     <FaLinkedin className="text-xl text-[#0A66C2]" />
@@ -83,9 +83,9 @@ const SideBar = () => {
 
             <div className="flex flex-col justify-evenly mb-2">
               <h2 className=" font-bold ">Language : </h2>
-              <h2 className=" font-medium ">BANGLA (NATIVE)</h2>
-              <h2 className=" font-medium "> ENGLISH (COMFORTABLE)</h2>
-              <h2 className="font-medium ">HINDI (COMFORTABLE)</h2>
+              <h2 className="font-normal ">BANGLA (Native)</h2>
+              <h2 className="font-normal ">ENGLISH (Comfortable)</h2>
+              <h2 className="font-normal ">HINDI (Comfortable)</h2>
             </div>
             {/* <div className="flex justify-between pb-5">
               <div className="text-center">
@@ -139,7 +139,7 @@ const SideBar = () => {
                 className="mt-auto w-full"
                 href="https://drive.google.com/file/d/1y2nKLh2bDdDRpf-Svr3C1IboW2adGKqL/view?usp=sharing"
               >
-                <button className=" btn w-full rounded-md">
+                <button className=" btn w-full border-none  rounded-md">
                   <FaDownload className="text-primary" /> Resume
                 </button>
               </a>
